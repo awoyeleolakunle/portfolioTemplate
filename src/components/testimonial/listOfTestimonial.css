@@ -1,0 +1,17 @@
+.listOfTestimonials {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  gap: 2.5rem 0;
+
+  padding: 0px 30px;
+  margin-top: 2%;
+}
+
+.testimonialText {
+  margin-top: 5%;
+  padding-bottom: -20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,139 @@
+.mainContainer {
+  display: grid;
+  gap: 1.5rem 0;
+  margin-top: 2%;
+  margin-top: 5%;
+
+  h2 {
+    margin: 0% 3%;
+    text-align: left;
+  }
+}
+
+.textIconAndInputButton {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 0;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.textAndIcons {
+  display: grid;
+
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 100%;
+    max-width: 650px;
+    word-wrap: break-word;
+  }
+
+  div {
+    display: inline-flex;
+    justify-content: left;
+    justify-content: space-between;
+    width: 70%;
+
+    img {
+      object-fit: cover;
+      height: 50px;
+      width: 14%;
+    }
+  }
+}
+
+.inputAndButton {
+  display: grid;
+  gap: 1.5rem 0;
+  width: 30%;
+
+  input {
+    height: 50px;
+    width: 100%;
+    background: rgba(243, 243, 243, 1);
+    border: 2px;
+    padding: 0px 10px;
+  }
+  Button {
+    height: 60px;
+    background: rgba(45, 45, 45, 1);
+    color: rgba(255, 255, 255, 2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    display: grid;
+    gap: 1rem 0;
+    margin-top: 10%;
+
+    h2 {
+      margin: 0% 8%;
+      text-align: left;
+    }
+  }
+
+  .textIconAndInputButton {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 0;
+    justify-content: space-between;
+    padding: 10px 40px;
+  }
+
+  .textAndIcons {
+    display: grid;
+    gap: 3rem 0;
+
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 1px;
+      text-align: left;
+      width: 100%;
+      word-wrap: break-word;
+    }
+
+    div {
+      display: inline-flex;
+      justify-content: left;
+      justify-content: space-between;
+      width: 100%;
+
+      img {
+        object-fit: cover;
+        height: auto;
+        width: 10%;
+      }
+    }
+  }
+
+  .inputAndButton {
+    display: grid;
+    gap: 1rem 0;
+    width: 100%;
+    margin-top: 10%;
+
+    input {
+      height: 50px;
+      width: 100%;
+      background: rgba(243, 243, 243, 1);
+      border: 2px;
+      padding: 0px 10px;
+    }
+    Button {
+      height: 60px;
+      background: rgba(45, 45, 45, 1);
+      color: rgba(255, 255, 255, 2);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      width: 40%;
+    }
+  }
+}

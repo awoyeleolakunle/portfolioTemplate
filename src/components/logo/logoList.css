@@ -1,0 +1,16 @@
+.logoList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 50px;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .logoList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 13px 62px;
+  }
+}

@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: rgba(255, 255, 255, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.logo h1 {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.header .navigation {
+  list-style: none;
+}
+
+.header .navigation ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    height: auto;
+    padding: 20px 30px;
+  }
+
+  .header .navigation {
+    display: none;
+  }
+
+  .header .navigation.open {
+    display: flex;
+  }
+
+  .header .navigation ul {
+    margin-top: 20px;
+  }
+
+  .header .navigation ul li {
+    display: block;
+    padding: 10px 0;
+    margin-right: 0;
+  }
+
+  .hamburger {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 5px;
+  }
+}
