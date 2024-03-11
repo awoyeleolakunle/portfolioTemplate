@@ -8,6 +8,7 @@ const VisualDesigner = () => {
       <div className="mainDiv">
         <div className="visuals">
           <h4>Branding | Image Making</h4>
+          <h4>Thank you Kayus My guy. I dey wait the babe oo</h4>
           <h1>Visual Designer</h1>
           <div className="ptext">
             <p>This is a template Figma file, turned into code using Anima</p>
